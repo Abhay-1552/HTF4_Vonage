@@ -1,0 +1,39 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="15">
+            <item index="0" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="1" class="java.lang.String" itemvalue="pymongo" />
+            <item index="2" class="java.lang.String" itemvalue="requests" />
+            <item index="3" class="java.lang.String" itemvalue="Flask" />
+            <item index="4" class="java.lang.String" itemvalue="xmljson" />
+            <item index="5" class="java.lang.String" itemvalue="sphinx_rtd_theme" />
+            <item index="6" class="java.lang.String" itemvalue="BeautifulSoup4" />
+            <item index="7" class="java.lang.String" itemvalue="Faker" />
+            <item index="8" class="java.lang.String" itemvalue="pytest" />
+            <item index="9" class="java.lang.String" itemvalue="qrcode" />
+            <item index="10" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="11" class="java.lang.String" itemvalue="pillow" />
+            <item index="12" class="java.lang.String" itemvalue="lxml" />
+            <item index="13" class="java.lang.String" itemvalue="whirlpool" />
+            <item index="14" class="java.lang.String" itemvalue="bcrypt" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="speech_recognition" />
+          <option value="pygame.math.cos" />
+          <option value="pygame.math.sin" />
+          <option value="list.scrape" />
+          <option value="list.to_csv" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
