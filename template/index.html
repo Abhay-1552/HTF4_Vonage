@@ -12,6 +12,7 @@
     <style>
         body {
             background-color: white;
+            font-family: 'Courier New', sans-serif;
         }
 
         /* Navbar styling */
@@ -70,7 +71,13 @@
             /* Dark grey text */
         }
 
-        /* Additional styling as needed */
+        .animate {
+            transition: transform 0.3s ease;
+        }
+
+        .animate:hover {
+            transform: scale(1.1);
+        }
     </style>
 </head>
 
@@ -80,7 +87,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="../static/images/Learn Ease Black Logo.png" alt="logo" style="height: 30px; width: 30px; margin-right: 10px;">LearnEase</a>
+                <img src="../static/images/Learn Ease Black Logo.png" alt="logo"
+                    style="height: 30px; width: 30px; margin-right: 10px;">LearnEase</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -91,7 +99,7 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="#blog">Blogs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -110,9 +118,11 @@
         </div>
     </div>
 
+    <hr style="height: 5px; width: 75%; margin: 0 auto; margin-top: 50px;">
+
     <!-- About section -->
     <section id="about" class="about-section">
-        <div class="container">
+        <div class="container" style="border: #343a40;">
             <div class="row">
                 <div class="col-lg-6">
                     <h2>About Me</h2>
@@ -120,13 +130,15 @@
                         eget auctor ex lobortis. Nulla facilisi. Integer lacinia hendrerit arcu ac ultricies. </p>
                 </div>
                 <div class="col-lg-6">
-                    <img src="https://via.placeholder.com/400x300" class="img-fluid rounded" alt="About Me">
+                    <img src="../static/images/whatisblog.png" class="img-fluid rounded" alt="About Me">
                 </div>
             </div>
         </div>
     </section>
 
-    <section>
+    <hr style="height: 5px; width: 75%; margin: 0 auto; margin-bottom: 50px;">
+
+    <section id="blog">
         <div class="row mb-2 mx-auto" style="width: 100%; display: flex; justify-content: center;">
             <div class="col-md-5">
                 <div
@@ -144,7 +156,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="col-auto d-none d-lg-block">
+                    <div class="col-auto d-none d-lg-block animate">
                         <img src="../static/images/vonage_logo.jpg" alt="Vonage Logo"
                             style="height: 250px; width: 200px;">
                     </div>
@@ -166,7 +178,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="col-auto d-none d-lg-block">
+                    <div class="col-auto d-none d-lg-block animate">
                         <img src="../static/images/neurelo.png" alt="Neurelo Logo" style="height: 250px; width: 200px;">
                     </div>
                 </div>
